@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-  hellopy:
+  logger:
     image: logger
     deploy:
       replicas: 3
